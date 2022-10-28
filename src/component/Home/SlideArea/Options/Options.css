@@ -1,0 +1,33 @@
+.options-o{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:auto;
+}
+.options-o .box{
+    padding: 0.5rem 1rem;
+}
+.options-o .box .title{
+    padding:0.5rem 0 0 0;
+    margin-left:1.5rem;
+    font-size:1rem;
+    font-weight:500;
+    border-bottom:1px solid #ddd;
+}
+.options-o .box .item{
+    padding:0.2rem 0.1rem;
+    cursor: pointer;
+}
+.options-o .box .item:hover {
+    background:rgba(0, 0, 0, 0.11);
+}
+.options-o .box .item .fa{
+    padding:0 0.5rem 0 0;
+    width:1rem;
+    color:rgb(121, 121, 121);
+}
+.options-o .box .item .text{
+    font-size:1.2em;
+    font-weight:300;
+}

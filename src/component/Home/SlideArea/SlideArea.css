@@ -1,0 +1,39 @@
+@keyframes slide{
+    from{
+       transform: translateX(100%); 
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.slide-area{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    width:17rem;
+    box-shadow:0px 0px 20px 5px rgba(0, 0, 0, 0.226);
+    z-index: 10;
+    transform: translateX(100%);
+    display:none;
+    transition:all 1s;
+}
+.slide-area.open{
+    display: block;
+    animation:slide 200ms ease-out forwards;
+}
+.slide-area .mini-profile{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:12.5rem;
+}
+.slide-area .options{
+    position: absolute;
+    top:12.5rem;
+    left:0;
+    width:100%;
+    height:calc(100% - 12.5rem);
+    background:rgb(240, 240, 240);
+}

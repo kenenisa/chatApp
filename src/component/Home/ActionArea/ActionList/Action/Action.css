@@ -1,0 +1,206 @@
+.action {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.action .con.other {
+  position: relative;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 45%;
+  bottom: 0.5rem;
+}
+.action .con.my .text-box {
+  box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.06);
+  min-width: 2rem;
+}
+.action .con.other .text-box {
+  box-shadow: -3px 3px 5px 1px rgba(0, 0, 0, 0.06);
+}
+.action .con.other .text-box {
+  position: relative;
+  left: 3.5rem;
+  display: inline-block;
+  height: 100%;
+  min-height: 2.6rem;
+  max-width: calc(100% - 3rem);
+  min-width: 4rem;
+  padding: 0.5rem 0.5rem 0.6rem 0.5rem;
+  border-radius: 7px;
+  background: white;
+}
+.action .con .text-box .time-stamp {
+  position: relative;
+  bottom: -0.5rem;
+  height: 1rem;
+  left: 0;
+  font-size: 0.8rem;
+}
+.action .con .text-box .time-stamp div {
+  display: inline-block;
+}
+.action .con.other .text-box .time-stamp .time {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.action .con.other .text-box .time-stamp .seen {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.action .con.other .img-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.5rem;
+  height: 100%;
+}
+.action .con.other .img-box .fa {
+  position: absolute;
+  top: 0.7rem;
+  right: -0.03em;
+  transform: rotate(-180deg);
+  font-size: 1.3rem;
+  color: white;
+}
+.action .con .img-box .img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.action .ava{
+  position:absolute;
+  top:0;
+  left:0;
+  margin:0.75rem;
+  color:rgba(255, 255, 255, 0.74);
+  line-height:13px;
+  font-weight: 500;
+  z-index:1;
+  text-align:center;
+  width:1rem;
+  height:1rem;
+}
+
+.action .con.my {
+  position: relative;
+  width: 45%;
+  left: 93%;
+  margin-top: 0.5rem;
+  transform: translateX(-100%);
+  display: flex;
+}
+.action .con.my .img-box {
+  position: absolute;
+  right: 0;
+  margin-right: -3.5rem;
+}
+.action .con.my .text-box {
+  display: inline-block;
+  background: white !important;
+  margin: auto 0 auto auto;
+  max-width: 85%;
+  padding: 0.5rem 0.5rem 0.6rem 0.5rem;
+  border-radius: 7px;
+}
+.action .con .text-box .name {
+  font-size: 0.72rem;
+  letter-spacing: 1px;
+  line-height: 10px;
+  margin-bottom: 0.2rem;
+  opacity: 0.4;
+}
+.action .con.my .text-box .time-stamp .time {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.action .con.my .text-box .time-stamp .seen {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.action .con.my .img-box .fa {
+  position: absolute;
+  top: 0.7rem;
+  left: -1.05rem;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.action .con .text-box .time-stamp .seen.true {
+  display: block;
+}
+.action .con .text-box .time-stamp .seen.false {
+  display: none;
+}
+.action .con-channal {
+  position: relative;
+  top: 0;
+  left: 15%;
+  width: 70%;
+  background: rgb(255, 255, 255);
+  margin: 0.75rem 0;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05);
+  border-radius:5px;
+}
+.action .con-channal div {
+  padding: 0.25rem;
+}
+.action .con-channal .title {
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 0.5rem 0 0.2rem 0.5rem;
+}
+.action .con-channal img {
+  width: unset;
+}
+.action .con-channal .img {
+  height: 10rem;
+  margin-bottom: 0.5rem;
+}
+.action .con-channal .img img {
+  position: relative;
+  left: 50%;
+  width: unset;
+  height: unset;
+  min-height: 100%;
+  max-height: 100%;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  transform: translateX(-50%);
+}
+.action .con-channal .bottom {
+  position: relative;
+  height: 1rem;
+  font-weight:100;
+  font-size:0.9rem;
+}
+.action .con-channal .bottom .time {
+  position: absolute;
+  top: 0;
+  right: 0.25rem;
+  width: 3rem;
+  height: 100%;
+}
+.action .con-channal .bottom .author {
+  position: absolute;
+  top: 0;
+  right: 3.5rem;
+  height: 100%;
+}
+.action .con-channal .bottom .seen-amount {
+  position: absolute;
+  top: 0;
+  left: 0.25rem;
+  height: 100%;
+}
+.action .con-channal .bottom .seen-amount span {
+  font-size: 0.8rem;
+  margin-right: 0.25rem;
+}

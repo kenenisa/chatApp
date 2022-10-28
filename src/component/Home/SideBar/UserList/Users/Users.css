@@ -1,0 +1,97 @@
+.user {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.user .con{
+    position: absolute;
+    top:1rem;
+    left:0.5rem;
+    width:calc(100% - 1rem);
+    height:calc(100% - 2rem);
+}
+.user .text-con{
+    position: absolute;
+    top:0;
+    right:0;
+    height:100%;
+    width:80%;
+}
+.user .text-con .name{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    font-size:.95rem;
+    line-height:0.7rem;
+    
+}
+.user .text-con .name .text{
+    position: absolute;
+    top:0;
+    left:0;
+    display: inline-block;
+    width:7.45rem;
+    height:1rem;
+    color:rgb(53, 53, 53);
+    font-weight:350;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis; 
+}
+.user .text-con .name .status{
+    position: absolute;
+    top:0;
+    right:0.5rem;
+    font-size:0.9rem;
+    display:inline-block;
+    color:rgba(73, 73, 73, 0.521);
+    text-align:right;
+    width:3.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis; 
+}
+.user .text-con .msg{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:rgba(90, 90, 90, 0.76);
+    font-weight:300;
+    width:96%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis; 
+}
+.user .text-con .msg .some{
+    font-weight:400;
+    color:rgba(90, 90, 90, 0.89);
+}
+.user .img-con{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:20%;
+}
+.user .img-con .img{
+    width:2.5rem;
+    height:2.5rem;
+    border-radius:50%;
+    overflow: hidden;
+}
+.user .img-con .img .ava{
+  position:absolute;
+  top:0;
+  left:0;
+  margin:0.75rem;
+  color:rgba(255, 255, 255, 0.74);
+  line-height:13px;
+  font-weight: 500;
+  text-align:center;
+  width:1rem;
+  height:1rem;
+}
+

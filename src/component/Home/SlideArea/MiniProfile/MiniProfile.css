@@ -1,0 +1,42 @@
+.mini{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgb(126, 126, 126);
+}
+.mini .edit{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:0.5rem 1rem;
+    color:white;
+    text-shadow:1px 1px 5px  rgba(0, 0, 0, 0.178);
+    font-size:1.1rem;
+}
+.mini .content{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.075);
+    padding:0rem 1rem 1rem 1rem;
+    color:white;
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.068);
+}
+.mini .img-box{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+}
+.mini .content .name{
+    font-size:1.2rem;
+}
+.mini .content .email{
+    font-size:0.8rem;
+    text-shadow:2px 2px 3px rgba(0, 0, 0, 0.048);
+    color:#ccc;
+}

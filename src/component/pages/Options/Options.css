@@ -1,0 +1,179 @@
+.create {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.create .con {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 10%;
+}
+.create .con .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55%;
+  height: 100%;
+}
+.create .con .help {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45%;
+  width: 100%;
+  background: url("../../../img/help.PNG");
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.068);
+}
+.create .help .con{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+  width:11.15rem;
+  height:2rem;
+  line-height:1.5rem;
+  font-size:1.5rem;
+  background:rgba(0, 0, 0, 0.095);
+  color:rgb(87, 87, 87);
+  padding:1rem 2rem; 
+  text-decoration:underline;
+  cursor: pointer;
+  font-weight:100;
+}
+.create .help .con.large{
+  width:11.8rem;
+}
+.create .con .form {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  background: white;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.068);
+}
+.create .con .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: white;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.068);
+  overflow-x: hidden !important;
+}
+.create .con .user {
+  position: relative;
+  height: 2.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+  padding: 0.5rem 0 0.5rem 0;
+  cursor: pointer;
+  background:white;
+}
+.create .con .user:hover {
+  background: rgba(0, 0, 0, 0.041);
+}
+.create .con .img-con {
+  top: 0.5rem;
+  left:0.7rem;
+}
+.create .con .right .head {
+  position: relative;
+  left: 4rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.create .scroll{
+  width:100%;
+}
+.create .con .user .text-con {
+  left:4rem;
+  right: unset;
+  width: 50%;
+}
+.create .con .user .name {
+  position: absolute;
+  top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.create .con .user .checkbox {
+  position: absolute;
+  top: 0.4rem;
+  right: 0;
+  height: 100%;
+  width: 3rem;
+}
+.create .con .user .checkbox input[type="checkbox"] {
+  visibility: hidden;
+}
+.create .con .user .checkbox .fake-checkbox {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.333);
+  border: 2px solid white;
+  border-radius: 50%;
+  transition:transform 100ms;
+}
+.create .con .user .checkbox input[type="checkbox"]:checked + .fake-checkbox {
+  background: rgba(0, 0, 0, 0.333);
+}
+.create .con .user .checkbox input[type="checkbox"]:active + .fake-checkbox{
+  transform:scale(0.7);
+}
+.create .form .con{
+  width:90%;
+  left:5%;
+}
+.create .form label{
+  padding: 0;
+  font-weight:300;
+}
+.create .form .name-con{
+  margin-bottom:1rem;
+}
+.create .form input{
+  color:#aaa;
+  border-bottom:2px solid #aaa;
+  width:100%;
+}
+.create .form input:focus{
+  color:black;
+  border-bottom:2px solid black;
+}
+.create .form .button{
+  position:absolute;
+  right:-2.5%;
+  margin-top:2rem;
+  background:rgb(1, 162, 255);
+  padding:0.5rem 1.3rem;
+  border-radius:5px;
+  color:white;
+  box-shadow:2px 2px 5px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  transition: box-shadow 100ms;
+  border:0px solid black;
+  font-size:1rem;
+  transition:all 200ms;
+}
+.create .form .button:hover{
+  box-shadow:3px 3px 6px 2px rgba(0, 0, 0, 0.18);
+}
+.create .form .button:active{
+  background:rgb(58, 181, 252);
+}
+.create .form .button:focus{
+  outline:none;
+}
+.create .form .head{
+  font-size:1.5rem;
+  font-weight:200;
+  margin-bottom:1rem;
+}

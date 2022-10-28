@@ -1,0 +1,27 @@
+.file .items{
+    position: absolute;
+    top:0.5rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+.file .items .item{
+    width:1.5rem;
+    height:1.5rem;
+    padding: 0.2rem;
+    border:1px solid #ddd;
+    box-shadow:2px 2px 20px 1px #ddd;
+    border-radius:50%;
+    text-align:center;
+    display:inline-block;
+    transform:scale(1.3);
+    margin-right:2rem;
+    background:white;
+    color:rgb(102, 102, 102);
+}
+.file .items .item:hover{
+    background:rgb(102, 102, 102);
+    color:white;
+}
+.file .hide{
+    display: none;
+}

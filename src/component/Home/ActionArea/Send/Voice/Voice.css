@@ -1,0 +1,53 @@
+.audio-box{
+    position: absolute;
+    top:0;
+    left:3rem;
+    right: 0%;
+    bottom:0;
+    overflow: hidden;
+}
+.audio-box .title{
+    position: absolute;
+    top:10%;
+    left:0;
+    width:44%;
+    height:100%;
+    text-align:right;
+    font-size:1.5rem;
+    color:rgba(0, 0, 0, 0.336);
+}
+.audio-box .button{
+    position: absolute;
+    top:0;
+    left:50%;
+    width:50%;
+    height:100%;
+}
+.audio-box .button button{
+    background:rgb(141, 141, 141);
+    width:2.5rem;
+    height:2.5rem;
+    margin-top:0.25rem;
+    color:white;
+    font-size:1.3rem;
+    border:1px solid rgba(0, 0, 0, 0.26);
+    border-radius:50%;
+    outline: none;
+}
+.audio-box .button button:hover{
+    background:rgb(170, 170, 170);
+    border:1px solid rgba(0, 0, 0, 0);
+}
+@keyframes ragging{
+    from{
+        box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0.562);
+    }
+    to{
+        box-shadow:0px 0px 0px 40px rgba(0, 0, 0, 0.13);
+    }
+}
+.audio-box .ragging{
+    background:red !important;
+    border:1px solid white;
+    animation:ragging 1000ms infinite forwards cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

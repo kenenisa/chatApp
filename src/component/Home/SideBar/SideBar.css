@@ -1,0 +1,28 @@
+.side-bar {
+  position: fixed;
+  right: 0;
+  top: 2.8rem;
+  bottom: 0;
+  height: 100%;
+  width: 16rem;
+  border-left:2px solid #ddd;
+  background:black;
+  z-index: 9;
+}
+.user-list{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.tabs{
+  position:absolute;
+  bottom:2.8rem;
+  left:0;
+  width:100%;
+  height:1.8rem;
+  background: rgb(240, 240, 240);
+  border-top:0.35rem solid rgba(172, 172, 172, 0.338);
+  z-index:2;
+}

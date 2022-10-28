@@ -1,0 +1,23 @@
+.scroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  width: 99.8%;
+  height: 100%;
+}
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  background: rgba(0, 0, 0, 0);
+}
+.scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.082);
+}
+.scroll::-webkit-scrollbar-thumb{
+  background:rgba(121, 121, 121, 0.199);
+  border:1px solid #ccc;
+  border-radius: 10px;
+}
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(121, 121, 121, 0.699);
+  border-radius: 10px;
+}

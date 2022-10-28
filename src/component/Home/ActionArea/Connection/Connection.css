@@ -1,0 +1,74 @@
+.connection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.041);
+}
+.connection .con {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1rem;
+  right: 1rem;
+}
+.connection .con .eye {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33.33%;
+  line-height: 5px;
+}
+.connection .con .status {
+  position: absolute;
+  top: 0;
+  left: 33.33%;
+  width: 33.33%;
+  line-height: 16px;
+}
+.connection .con .options {
+  position: absolute;
+  top: 0rem;
+  left: 66.66%;
+  width: 33.33%;
+}
+.connection .con .options .button{
+    position:absolute;
+    top:-0.3rem;
+    right:0;
+    width:2.5rem;
+    height:1.2rem;
+
+}
+.connection .con .options .button .dot{
+    background:black;
+    width:0.5rem;
+    height: 0.5rem;
+    margin-right:0.3rem;
+    border-radius:50%;
+    display: inline-block;
+}
+.connection .con .options .option-details{
+    position:absolute;
+    top:1.5rem;
+    right:0;
+    padding:0.7rem 0.4rem;
+    color:white;
+    border-radius:2px;
+    background:rgba(0, 7, 26, 0.425);
+    opacity:0;
+    transform:scale(0.0000000000001);
+    transition:all 100ms ease-out;
+}
+#open{
+    opacity:1;
+    transform:scale(1);
+}
+.connection .con .options .option-details div{
+    padding:0.1rem 0.4rem;
+}
+.connection .con .options .option-details div:hover{
+    background:rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+}

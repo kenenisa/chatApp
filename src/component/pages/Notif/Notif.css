@@ -1,0 +1,80 @@
+.notif-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.notif-box .con {
+  position: relative;
+  top: 1rem;
+  left: 10%;
+  width: 80%;
+}
+.notif-box .item {
+  position: relative;
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background: white;
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.notif-box .img {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5em;
+  width: 2rem;
+  height: 2rem;
+  background: rgb(187, 187, 187);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.notif-box .content {
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  right: 0;
+  bottom: 0;
+}
+.notif-box .content .text {
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  font-weight: 300;
+}
+.notif-box .content .buttons {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 3rem;
+}
+.notif-box .content .buttons button {
+  border: 0px solid #ccc;
+  background: white;
+  font-weight: 100;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.4rem;
+  border-radius: 2px;
+  color: rgb(139, 139, 139);
+  text-decoration: underline;
+  outline: none;
+}
+.notif-box .content .buttons button:hover {
+  background: #ccc;
+}
+
+.notif-box .content .time {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0;
+  width: 3rem;
+  text-align: center;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+.notif-box .gutter {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 5rem;
+}

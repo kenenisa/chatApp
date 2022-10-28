@@ -1,0 +1,44 @@
+.text-area{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: rgb(235, 235, 235);
+}
+.text-area textarea{
+    position: absolute;
+    top:0em;
+    left:3rem;
+    right:4rem;
+    height:91%;
+    padding:0.5rem;
+    max-width:85%;
+    max-height:91%;
+    min-width:85%;
+    min-height:91%;
+    font-size:1.3rem;
+    outline: none;
+    box-sizing: border-box;
+    background: rgb(235, 235, 235);
+    border:0px solid rgb(197, 197, 197);
+}
+.text-area textarea:focus{
+    background: white;
+}
+.text-area button{
+    position: absolute;
+    top:0.4rem;
+    right:0.8rem;
+    width: 2.5rem;
+    height: 2.66em;
+    border-radius: 50%;
+    background: rgb(197, 197, 197);
+    border: 0px solid black;
+    text-align: center;
+    outline: none;
+    box-shadow:5px 5px 20px 1px rgba(0, 0, 0, 0.192);
+}
+.text-area button:hover{
+    background:white;
+}
